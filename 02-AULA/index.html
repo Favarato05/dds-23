@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 2</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/763/763965.png "
+    />
+  </head>
+  <body>
+    <h1>TABELA INCRÍVEL</h1>
+
+    <!-- Criando uma tabela -->
+    <table border="5">
+      <!-- Cabecalho da tabela -->
+      <thead>
+        <tr>
+          <!-- Crio uma columa de cabecalho -->
+          <th>NOME</th>
+          <th>ITEM</th>
+          <th>QUANTIDADE</th>
+          <th>PREÇO</th>
+        </tr>
+      </thead>
+
+      <!-- Corpo da tabela -->
+      <tbody>
+        <!-- Crio uma linha -->
+        <tr>
+          <!-- Crio uma coluna -->
+          <td>Cristiano</td>
+          <td>Perfume</td>
+          <td>7</td>
+          <td>R$777.77</td>
+        </tr>
+        <tr>
+          <td>Ferrari</td>
+          <td>Camiseta</td>
+          <td>13</td>
+          <td>R$359.99</td>
+        </tr>
+        <tr>
+          <!-- Rowspan = diz quantas colunas ele deve ocupar -->
+          <td rowspan="2">Adidas</td>
+          <td>Sapato</td>
+          <td>2</td>
+          <td>R$199.99</td>
+        </tr>
+        <tr>
+            <td>Sapatênis</td>
+            <td>1</td>
+            <td>R$299.99</td>
+        </tr>
+      </tbody>
+
+      <!-- Rodape da tabela -->
+      <tfoot>
+        <tr>
+          <!-- Colspan = diz quantas colunas ele deve ocupar -->
+          <td colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todos os direitos reservados&reg;</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
