@@ -1,6 +1,30 @@
+/* IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+  src: url("./fonts/Playwrite.ttf");
+  font-family: "Playwrite";
+}
+/* usando a fonte importada pelo projeto */
+p{
+  font-family: "Playwrite";
+  color: darkblue;
+  font-size: 15px;
+}
+
+/* usando a fonte importada pelo link */
+h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 /* ESTILIZEI POR TAG */
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", sans-serif;
   margin: 20px;
   background-color: #f4f4f4;
   color: black;
@@ -8,6 +32,7 @@ body {
 
 /* ESTILIZEI DOIS ELEMENTOS AO MESMO TEMPO */
 h1, h2 {
+  color: #1f3c88;
 }
 /* SELETOR DE CLASSE */
 .bloco {
